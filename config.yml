@@ -51,7 +51,7 @@ params:
           enabled: true
           title: "薛 路"
           subtitle: "这是我的个人小站，用来记录我做过的项目和一些不太成熟的思考，希望对你有所启发✨"
-          imageUrl: "profile_picture.png"
+          imageUrl: "profile_pic2.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
