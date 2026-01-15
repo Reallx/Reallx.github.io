@@ -6,12 +6,9 @@ author: ["薛路"]
 description: "尝试第一次发帖" 
 summary: "尝试第一次发帖，了解发帖过程" 
 cover:
-    image: "course2.png"
+    image: "cover.jpg"
     alt: "Figure caption"
     relative: true
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Course portal"
 showToc: true
 disableAnchoredHeadings: false
 
@@ -19,26 +16,17 @@ disableAnchoredHeadings: false
 
 ## Introduction
 
-This course covers topics related to profanity in Early Irish. It relates such profanity to profanity in modern English:
+这是第一次在个人网站上发post，包括以下内容：
++ 介绍
++ 随便说说
 
-+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-+ Sed fermentum turpis nec dolor dapibus, ac commodo enim consequat. 
-+ Suspendisse potenti. Integer ac mauris nec ligula finibus ullamcorper. 
-+ Phasellus rutrum enim in nunc aliquam mollis. 
-+ Vivamus auctor nunc ac augue dapibus, in fermentum enim hendrerit. Duis et ultrices sem, eget efficitur lacus. 
 
-##### Introductory video
+##### 我最喜欢的视频
 
-+ [Lecture video 0](https://youtu.be/8ihJsf-AXdA)
++ [Lecture video 0](https://www.bilibili.com/video/BV1xRKNeAEWG/?spm_id_from=333.337.search-card.all.click)
 
-##### Introductory readings
-
-+ [Paper 1](https://pascalmichaillat.org/13.pdf)
-+ [Paper 2](https://pascalmichaillat.org/14.pdf)
 
 ---
 
-## Part 1: Overview of Early Irish
-
-This section reviews the Early Irish language. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.
+## Part 1:随便说说
+事实证明乞力马扎罗山上没有WIFI
