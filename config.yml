@@ -1,5 +1,5 @@
 baseURL: "https://Reallx.github.io/" 
-title: 薛路
+title: 🌱Lu'Studio
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -49,8 +49,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "薛路"
-          subtitle: "这是我的个人小站，用来记录我做过的项目和一些不太成熟但很真实的思考。在这里，我会把想法变成作品，也把经历整理成洞察，希望对你有所启发✨"
+          title: "薛 路"
+          subtitle: "这是我的个人小站，用来记录我做过的项目和一些不太成熟但很真实的思考，希望对你有所启发✨"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -63,28 +63,11 @@ params:
            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: mailto:lxue2408@163.com
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/Reallx
+
 
     assets:
         disableScrollBarStyle: true
@@ -92,7 +75,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "薛 路"
       icon: favicon.ico
       iconHeight: 18
 
