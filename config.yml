@@ -1,5 +1,5 @@
 baseURL: "https://Reallx.github.io/" 
-title: 🌱Lu'Studio
+title: Lu'Studio
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -58,7 +58,6 @@ params:
               url: projects/
             - name: Posts
               url: posts/
-            - name: Books
             #- name: Blog
            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
