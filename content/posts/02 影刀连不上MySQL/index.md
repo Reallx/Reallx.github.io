@@ -3,7 +3,7 @@ title: "影刀 RPA 与服务器上的 MySQL 连接排错"
 date: 2026-01-17
 author: "薛路"
 summary: "一次真实的 MySQL 连接问题排错，探究其中的原理与解决方案"
-description:"影刀 RPA 与服务器上的 MySQL 连接排错"
+description: "影刀 RPA 与服务器上的 MySQL 连接排错"
 tags: ["MySQL", "影刀"]
 showToc: true
 disableAnchoredHeadings: false 
@@ -137,6 +137,7 @@ MySQL
 - 以及对本地映射端口进行规范化管理，提升可维护性和可复用性。
 
 这些改进并不会改变方案 B 的基本原理，而是让其从短期解决方案升级为长期可用、稳定且工程化的方案。
+
 
 
 
