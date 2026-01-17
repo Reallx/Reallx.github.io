@@ -29,15 +29,10 @@ Can't connect to MySQL server on '127.0.0.1'
 
 **问题本质：对host的理解不对，导致填写的127.0.0.1无法连接到目的地MySQL**
 
-<figure align="center">
-  <img src="./关键报错.png" alt="报错关键" width="40%">
-  <figcaption>
-    <em>图 1：MySQL 连接失败时的关键报错信息</em>
-  </figcaption>
-</figure>
+![报错关键](关键报错.png)
 
 ## 二、解决过程
-#### 2.1 关键认知1
+### 2.1 关键认知1
 > `127.0.0.1` 只代表“当前这台机器自己
 
 | 场景 | 127.0.0.1指代 |
@@ -53,7 +48,7 @@ Can't connect to MySQL server on '127.0.0.1'
   
 但我的本机没有安装MySQL，必然是Connection refused。
 
-#### 2.2 关键认知2
+### 2.2 关键认知2
 > 为什么 Datagrip 能连，但影刀不行？
 >>我发现我的Datagrip能连接MySQL，且其 Host 显示的是`127.0.0.1`
 
@@ -61,12 +56,7 @@ Datagrip 并不是直连MySQL的，我勾选了：
 > Use SSH tunnel / SSH tunnel
 > 且分配了本地端口
 
-<figure align="center">
-  <img src="./datagrip_keypoint.png" alt="Datagrip设置" width="70%">
-  <figcaption>
-    <em>图 2：Datagrip SSH设置</em>
-  </figcaption>
-</figure>
+![Datagrip设置](datagrip_keypoint.png)
 
 Datagrip 实际做的是：
 ```text
@@ -82,7 +72,7 @@ MySQL (127.0.0.1:3306)
 ```
 DataGrip 在启用 SSH Tunnel 后，会在本机创建一个临时监听端口，并通过 SSH 将该端口转发至服务器本地的 MySQL 端口（127.0.0.1:3306）。本机访问该临时监听端口，等价于在服务器本地访问 MySQL。这实际上是一次典型的 SSH 本地端口转发（local port forwarding）。
 
-#### 2.3 关键认知3
+### 2.3 关键认知3
 > SSH Tunnel 是什么？
 
 **SSH 隧道 = 把服务器的一个“本地端口”，映射成你电脑的一个“本地端口”**
@@ -96,12 +86,12 @@ ssh -N -L 13306:127.0.0.1:3306 your_ssh_user@your_server_ip
 于是电脑上出现了一个“假MySQL”
 `127.0.0.1:13306` --> 通向服务器的 MySQL
 
-#### 2.4 根本原因总结
+### 2.4 根本原因总结
 Datagrip 通过设置能够自己建设 SSH 通道，进行 SSH 本地端口转发。但影刀不会。所以，我们需要为影刀开一个 SSH 隧道，让影刀能够顺利访问服务器上的 MySQL。
 
 ---
 
-#### 2.5 解决方法
+### 2.5 解决方法
 在 `PowerShell/CMD`上新建 SSH 隧道：
 ```bash
 ssh -N -L 13306:127.0.0.1:3306 your_ssh_user@your_server_ip
@@ -137,6 +127,7 @@ MySQL
 - 以及对本地映射端口进行规范化管理，提升可维护性和可复用性。
 
 这些改进并不会改变方案 B 的基本原理，而是让其从短期解决方案升级为长期可用、稳定且工程化的方案。
+
 
 
 
