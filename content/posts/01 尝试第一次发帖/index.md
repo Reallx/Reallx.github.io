@@ -5,10 +5,6 @@ tags: ["Post","My Website"]
 author: ["薛路"]
 description: "尝试第一次发帖" 
 summary: "尝试第一次发帖，了解发帖过程" 
-cover:
-    image: "cover.jpg"
-    alt: "Figure caption"
-    relative: true
 showToc: true
 disableAnchoredHeadings: false
 
