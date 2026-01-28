@@ -26,7 +26,7 @@ Agent skills 在2025年由 Anthropic 发布，随后 Cursor、Codex、Opencode �
 ```
 Agent skills 是模块化的能力插件，Claude 当做超级大脑，Agent skills 是一个外接工具箱，工具箱中不仅包含了工具本身，还包含了详细的使用说明书。大脑不需要理解所有工具的用法，只要在需要的时候调用工具直接使用即可。
 
-每个skills都是一个文件夹，放在一个固定的位置。组成如下：
+每个skills都是一个文件夹，放在一个固定的位置。组成如下
 ```
 ~/project/.claude/skils/my-skills
 
