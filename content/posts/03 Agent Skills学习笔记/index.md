@@ -1,6 +1,6 @@
 ---
 title: "Agent Skills 学习笔记"
-date: 2026-01-28
+date: 2026-01-27
 author: "薛路"
 summary: "这是一篇学习Agent skills的文章，包括skills的组成、使用和热门skills"
 description: "这是一篇学习Agent skills的文章"
