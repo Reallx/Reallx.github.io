@@ -9,7 +9,7 @@ showTOC: true
 disableAnchoredHeadings: false 
 ---
 
-> 在新电脑上从0-1配置 Git
+> 在新电脑上从0-1配置 Git  
 > 记录 Git 的安装及使用
 
 ---
@@ -119,7 +119,7 @@ git push #本地提交同步到 GitHub
    HTTPS：每次`git push/pull`时，需要用 Personal Access Token 验证。当这种方式经常被 reset（网络问题），需要使用 SSH 方式。
 
    SSH：本地有一把私钥，GitHub 存着你的公钥，建立连接时自动验证，不需要输入任何账号密码，直接 remote 即可。配置方式如下：
-   ```bash
+   ```text
     生成 Key：ssh-keygen -t ed25519 -C "你的GitHub邮箱@example.com"
     复制公钥：type %USERPROFILE%\.ssh\id_ed25519.pub
     把公钥复制到 Github：GitHub → Settings → SSH and GPG keys → New SSH key
