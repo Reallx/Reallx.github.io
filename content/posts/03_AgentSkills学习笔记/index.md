@@ -7,9 +7,6 @@ description: "学习AI Agent Skills的笔记"
 tags: ["AI", "Agent","Skills"]
 showTOC: true
 disableAnchoredHeadings: false 
-editPost:
-    URL: "https://www.bilibili.com/video/BV1GXzaByEEo"
-    Text: "参考视频"
 ---
 
 ---
