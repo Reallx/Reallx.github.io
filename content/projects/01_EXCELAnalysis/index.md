@@ -37,7 +37,7 @@ disableAnchoredHeadings: false
 - 职务类别
 
 数据覆盖多个区域及销售团队，可支持多维度交叉分析。原始数据如下：
-[下载 CSV 原始数据](data/01_EXCEL销售报表/月度销售数据-截至5月.csv)
+[下载 CSV 原始数据](data/01_EXCELDashboard/monthly_sales_upto_may.csv)
 
 ---
 
