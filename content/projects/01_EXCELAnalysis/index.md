@@ -37,7 +37,7 @@ disableAnchoredHeadings: false
 - 职务类别
 
 数据覆盖多个区域及销售团队，可支持多维度交叉分析。原始数据如下：
-[金融产品成交数据-截至5月 (CSV)](static\data\月度销售数据-截至5月.csv)
+[下载 CSV 原始数据](data/01_EXCEL销售报表/月度销售数据-截至5月.csv)
 
 ---
 
@@ -53,7 +53,7 @@ disableAnchoredHeadings: false
 
 ## 四、分析框架设计
 
-#### 1. 指标体系构建
+### 1. 指标体系构建
 
 围绕销售业绩构建核心指标：
 
@@ -83,9 +83,7 @@ disableAnchoredHeadings: false
 
 [销售分析报表(PDF)](月度销售数据-截至5月.pdf)
 
-
 💡 项目亮点
-
 - 构建标准化销售 KPI 框架，实现数据驱动管理
 - 支持多维度交叉分析，提高决策效率
 - 报表结构清晰，可复用至其他销售场景
