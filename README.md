@@ -8,7 +8,7 @@ The template is documented at https://pascalmichaillat.org/b/.
 
 ## Illustration
 
-The website produced by the template can be viewed at https://pascalmichaillat.org/hugo-website/.
+The website produced by the template can be viewed at https://reallx.github.io/.
 
 ## Installation
 
@@ -68,46 +68,6 @@ And here is an overview of the desktop performance:
 ## License
 
 This repository is licensed under the [MIT License](LICENSE.md).
-
-## Real-world implementations
-
-- [Pascal Michaillat's website](https://pascalmichaillat.org/) ([source code](https://github.com/pmichaillat/pmichaillat.github.io))
-- [Rosa van den Ende's website](https://rosavandenende.github.io) ([source code](https://github.com/rosavandenende/rosavandenende.github.io))
-- [Samia Kabir's website](https://samiakabir.com) ([source code](https://github.com/SamiaKabir/samiakabir.github.io))
-- [Dylan Laplace Mermoud's website](https://dylanlaplacemermoud.github.io) ([source code](https://github.com/DylanLaplaceMermoud/dylanlaplacemermoud.github.io))
-- [Maarten Goos's website](https://maartengoos.com) ([source code](https://github.com/MaartenGoos/website))
-- [Jun Wong's website](https://junwong.org) ([source code](https://github.com/junwong97/junwong97.github.io))
-- [Erling Rennemo Jellum's website](https://erlingrj.github.io) ([source code](https://github.com/erlingrj/erlingrj.github.io))
-- [Yangkeun Yun's website](https://yangkeunyun.github.io) ([source code](https://github.com/yangkeunyun/yangkeunyun.github.io))
-- [Lucas Warwar's website](https://lucaswarwar.github.io) ([source code](https://github.com/lucaswarwar/lucaswarwar.github.io))
-- [Franz Louis Cesista's website](https://leloykun.github.io) ([source code](https://github.com/leloykun/leloykun.github.io))
-- [Gabe Sekeres's website](https://gabesekeres.com) ([source code](https://github.com/gsekeres/hugo_site))
-- [Kevin Roice's website](https://kevroi.github.io) ([source code](https://github.com/kevroi/kevroi.github.io))
-- [Daniel Barbosa's website](https://dacbarbosa.github.io) ([source code](https://github.com/dacbarbosa/dacbarbosa.github.io))
-- [Wei Zhang's website](https://weizhang-econ.github.io) ([source code](https://github.com/weizhang-econ/weizhang-econ.github.io))
-- [Ben Hermann's website](http://benhermann.eu) ([source code](https://github.com/bhermann/bhermann.github.io))
-- [Franco Corona's website](http://fcorona.me) ([source code](https://github.com/exibios/exibios.github.io))
-- [Tom George's website](https://tomge.org) ([source code](https://github.com/TomGeorge1234/TomGeorge1234.github.io))
-- [Yucheng Zhou's website](https://yuchengzhou.com) ([source code](https://github.com/YuchengZ-Fin/YuchengZ-Fin.github.io))
-- [Rui Sousa's website](https://ruiagmsousa.github.io) ([source code](https://github.com/ruiagmsousa/ruiagmsousa.github.io))
-- [Stefano Sangiovanni's website](https://ste-sangiovanni.github.io) ([source code](https://github.com/ste-sangiovanni/ste-sangiovanni.github.io))
-- [Seth Watts's website](https://www.sethbwatts.com) ([source code](https://github.com/sBwatts/hugo-website))
-- [Louise Demoor's website](https://louisedemoor.github.io/website/) ([source code](https://github.com/louisedemoor/website))
-- [Giwon Bahg's website](https://giwonbahg.github.io) ([source code](https://github.com/giwonbahg/giwonbahg.github.io))
-- [Diego Araujo's website](https://daliego.github.io/portfolio-case-studies) ([source code](https://github.com/Daliego/portfolio-case-studies))
-- [Liam Powell's website](https://liampwl.com) ([source code](https://github.com/liampwl/liampwl.github.io))
-- [Anton Lundborg's website](https://www.arlundborg.com) ([source code](https://github.com/ARLundborg/web))
-- [Taeyoung Kim's website](https://tykim.me) ([source code](https://github.com/SangsChicom/tykim.github.io))
-- [Momchil Tomov's website](https://momchiltomov.com)
-- [Arthur Douillard's website](https://arthurdouillard.com)
-- [Benjamin Hattemer's website](https://benjaminhattemer.com)
-- [Kostas Bimpikis's website](https://stanford.edu/~kostasb/)
-- [Qiwei He's website](https://www.qiwei-he.com)
-- [Pierre Bardier's website](https://pierrebard.github.io/pierre-bardier/)
-- [Marek Wiewiórka's website](https://marekwiewiorka.org)
-- [Eran Shmuëli's website](https://eranshmueli.com)
-- [Bo Wang's website](https://bowang.finance)
-- [Muhammed Bulutay's website](https://muhammedbulutay.com)
 
 ## Related resources
 
