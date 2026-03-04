@@ -1,5 +1,5 @@
 ---
-title: "金融分期产品月度成交数据分析报表"
+title: "金融产品月度成交 EXCEL 分析报表"
 date: 2026-03-01
 author: "薛路"
 description: "基于多维成交数据构建月度销售分析报表，完成指标体系设计与动态数据可视化。"
@@ -15,7 +15,7 @@ disableAnchoredHeadings: false
 
 本项目基于某金融分期产品（借呗）的成交数据，构建月度销售分析报表，用于评估各区域、团队及人员绩效表现，并支持管理层进行经营决策。
 
-数据截至 2020 年 5 月。
+数据截至 2020 年 6 月。
 
 ---
 
@@ -91,6 +91,6 @@ disableAnchoredHeadings: false
 
 🛠 技术栈
 - Microsoft Excel
-- 条件格式
+- 条件格式SUMIFS
 - KPI 体系设计
 - 销售数据分析
