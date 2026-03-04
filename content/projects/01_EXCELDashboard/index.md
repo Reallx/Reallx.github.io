@@ -64,8 +64,6 @@ disableAnchoredHeadings: false
 - 区域销售贡献占比
 - 团队业绩对比
 
----
-
 ### 2. 报表可视化设计
 
 - 月度累计指标展示

@@ -16,7 +16,7 @@ disableAnchoredHeadings: false
 
 在前一项目中，我基于销售成交数据构建了一套 Excel 数据分析报表，实现了基本的销售指标统计与分析。
 
-原始项目：[项目文章链接](https://reallx.github.io/projects/01_excelanalysis/)
+原始项目：[项目文章链接](https://reallx.github.io/projects/01_exceldashboard/)
 
 随着业务数据不断增加，原始报表在数据更新效率与分析展示方面逐渐显现出一定局限。因此，在本项目中对报表系统进行了进一步优化与完善。
 
@@ -35,7 +35,7 @@ disableAnchoredHeadings: false
 
 ## 三、优化内容
 
-#### 1. 使用 Power Query 实现自动化数据处理
+### 1. 使用 Power Query 实现自动化数据处理
 
 为了减少手动整理数据的工作量，使用 Power Query 构建数据处理流程。
 
@@ -52,7 +52,7 @@ disableAnchoredHeadings: false
 
 ---
 
-### （二）构建销售数据分析看板（Dashboard）
+### 2.构建销售数据分析看板（Dashboard）
 
 在数据处理自动化的基础上，使用数据透视表（Pivot Table）构建销售分析看板。
 
